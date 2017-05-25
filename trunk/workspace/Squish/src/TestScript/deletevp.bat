@@ -1,0 +1,1 @@
+ FOR /R /D %%vp in (.\*verificationPoints*) DO del __init__.py

@@ -1,0 +1,1 @@
+ FOR /D /R %%d in (.\*) DO copy __init__.py "%%d"
