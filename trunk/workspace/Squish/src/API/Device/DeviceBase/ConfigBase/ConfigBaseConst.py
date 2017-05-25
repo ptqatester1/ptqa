@@ -1,0 +1,176 @@
+
+'''
+Classes related to config view
+'''
+
+class PopupsConst:
+	ERROR_MESSAGE_DIALOG = ':Error'
+	ERROR_MESSAGE_OK_BUTTON = ':Error.qt_msgbox_buttonbox.OK'
+	DEVICE_BOOTING_POPUP_OK = ":CBaseDeviceWidgetClass.Packet Tracer.qt_msgbox_buttonbox.OK"
+	
+	
+class GlobalSettings:
+	DISPLAY_NAME_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_displayNameEdit"
+	HOSTNAME_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IOSHostnameEdit"
+	
+	DHCP_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_radioDHCPIPv4"
+	STATIC_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_radioStaticIPv4"
+	GATEWAY_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_gatewayEditIPv4"
+	DNS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_DNSServerEditIPv4"
+
+	DHCP_RADIO_IPV6 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_radioDHCPv6"
+	AUTO_CONFIG_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_radioAutoCfg"     
+	STATIC_RADIO_IPV6 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_radioStaticv6"
+	IPV6_GATEWAY = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_gatewayIPv6Edit"
+	IPV6_DNS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_DNSServerIPv6Edit"
+	
+	SERVER_ADDRESS = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_editServerIP"
+	
+	GROUPBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox"
+	GROUPBOXV6 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox"
+	
+	GATEWAY_LABEL_IPv4 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_GatewayLabelIPv4"
+	GATEWAY_LABEL_IPv6 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_grpGatewayDnsIpv6GroupBox.m_GatewayLabelIPv6"
+	DNS_SERVER_LABEL_IPv4 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsGroupBox.m_DNSServerLabelIPv4"
+	DNS_SERVER_LABEL_IPv6 = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_grpGatewayDnsIpv6GroupBox.m_DNSServerLabelIPv6"
+	
+	INTERFACE_DROPDOWN = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_interfacesComboxBox"
+			
+class AlgorithmSettings:
+	TITLE = ""            
+	GLOBAL_SETTINGS_CHECKBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal"
+	
+	#CBAC
+	HALF_OPEN_SESSION_MULTIPLIER_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxCBAC.m_editCBACSessionMul_2"
+	
+	#TCP
+	MAX_CONNECTIONS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxTCP.m_editTCPMaxConns_2"
+	MAX_OPENED_SESSIONS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxTCP.m_editTCPOpenedSessions_2"
+	MAX_RETRANSMISSION_TIMEOUT_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxTCP.m_editTCPRetransmissionTimeOut"
+	
+	#Switching
+	STORM_CONTROL_LBL = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxSwitching.label_8"
+	STORM_CONTROL_MULTIPLIER_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseAlgorithmSettings.grpBoxGlobal.grpBoxSwitching.m_editStormCtrlMul_2"
+
+class StaticRouting:
+	ADD_BUTTON = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CBaseRouterStaticCfg.m_addButton"
+
+class RipRouting:
+	None
+
+class Routing:
+	None
+
+class VlanDatabase:
+	None
+
+class WiredEthernetInterface:
+	None
+
+class SerialInterface:
+	CLOCK_RATE_DROPDOWN = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_clockRateCombo"
+
+class WiredEthernetSwitchInterface:
+	None
+
+class WirelessInterface:
+	None
+
+class CellularInterface:
+	None
+
+class PCWirelessInterface:
+	None
+
+class Interface:
+	SCROLL_AREA = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2"
+	TITLE = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_title"
+	PORT_STATUS_CHECKBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_portStatusCheckBox"
+	
+	CLOCKRATE_COMBO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_clockRateCombo'
+	COVERAGE_RATE_COMBO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_coverageRangeDoubleSpinBox.qt_spinbox_lineedit'
+	
+	#Bandwidth
+	BANDWIDTH_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_BandwidthEdit"
+	BANDWIDTH_AUTO_CHECKBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_ethBandwidthCheckBox"
+	BANDWIDTH_1000_MBPS_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_eth1000Radio"
+	BANDWIDTH_100_MBPS_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_eth100Radio"
+	BANDWIDTH_10_MBPS_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_eth10Radio"
+	
+	#DUPLEX
+	DUPLEX_AUTO_CHECKBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_autoDuplexCheckBox"
+	DUPLEX_HALF_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_halfDuplexRadio"
+	DUPLEX_FULL_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_fullDuplexRadio"
+	
+	MAC_ADDRESS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_macAddrEdit"
+	TX_RING_LIMIT_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_txRinglimitEdit"
+
+	#IP Configuration
+	DHCP_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_ipv4RadioDHCP"
+	#DHCP_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_ipv4RadioDHCP"
+	STATIC_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_ipv4RadioStatic"			   
+	
+	PPPOE_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.radioPPPoE"
+	PPPOE_USERNAME = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_linksysUserNameEdit"
+	PPPOE_PASSWORD = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_pppoePasswordEdit"
+	
+	IP_EDIT_GROUPBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox"
+	IP_ADDRESS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_ipAddrEdit"
+	SUBNET_MASK_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_subnetEdit"
+	GATEWAY_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_gatewayEdit"
+	DNS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_DNSEdit"
+	DHCP_REFRESH = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPSettingsGroupBox.m_DhcpRefresh"
+	IP_EDIT_GROUPBOX = "" #needs to be added
+	
+	#IPv6 Configuration
+	IPV6_EDIT_GROUPBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox"
+	IPv6_DHCP_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.radioIPv6DHCP"
+	IPv6_AUTO_CONFIG_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.radioIPv6AutoCfg"
+	IPv6_STATIC_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.radioIPv6Static"
+	IPv6_GATEWAY_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_ipv6GatewayEdit"
+	IPv6_DNS_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_ipv6DNSEdit'
+	DHCPv6_REFRESH = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_Dhcpv6Refresh"
+	IPV6_EDIT_GROUPBOX = "" #needs to be added
+	
+	IPv6_ADDRESS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_ipv6AddrEdit"
+	IPv6_SUBNET_MASK_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_ipv6MaskEdit"
+	IPv6_LINK_LOCAL_ADDRESS_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.grpIPv6SettingsGroupBox.m_linkLocalAddrEdit"
+	
+	#Wireless
+	SSID_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_SSIDEdit"
+	CHANNEL_DROPDOWN = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.comboChannel"
+	
+	#Wireless Authentication
+	WIRELESS_AUTHENTICATION_GROUPBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox"
+	DISABLED_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioDisabled"
+	WEP_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioWEP"
+	WPA_PSK_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioWPA1_PSK"
+	WPA2_PSK_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioWPA2_PSK"
+	WPA_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioWPA1_EAP"
+	WPA2_RADIO = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.radioWPA2_EAP"
+	
+	WEP_KEY_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.m_KeyEdit"
+	PSK_PASS_PHRASE_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.m_PassphraseEdit"
+	USER_ID_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.m_UserIdEdit"
+	PASSWORD_EDIT = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.m_PasswordEdit"
+
+	ENCRYPTION_TYPE_DROPDOWN = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.m_comboEncryptType"
+	
+	RADIUS_IP = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.grpRADIUS.m_RadiusServerAddressEdit'
+	SHARED_SECRET = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_wirelessGroupBox.grpRADIUS.m_RadiusSharedSecretEdit'
+	
+	TRUNK_COMBO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_trunkCombo'
+	VLAN_SELECTION_DROPDOWN_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_vlanSelectionFrame.m_vlanCombo'
+	VLAN_SELECTION_DROPDOWN_LIST = ".CVlanComboBox1.QScrollArea1.qt_scrollarea_viewport.QFrame1"
+	VLAN_SELECTION_SCROLLBAR = '.CVlanComboBox1.QScrollArea1.qt_scrollarea_vcontainer.QScrollBar1'
+	VLAN_SELECTION_TEXT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_vlanSelectionFrame.m_vlanSelectionText'
+	
+class ConfigConst:
+	settings = GlobalSettings
+	algorithmSettings = AlgorithmSettings
+	interface = Interface
+	popups = PopupsConst
+	INTERFACES_BUTTON_BASE = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.m_menuCfgScrollView.qt_scrollarea_viewport.scrollAreaWidget.QFrame1."
+	GLOBAL_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.m_menuCfgScrollView.qt_scrollarea_viewport.scrollAreaWidget.QFrame1.GLOBAL'
+	DISPLAY_CLI = ':CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CCommandLine1'
+	

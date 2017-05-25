@@ -1,0 +1,12 @@
+class OverFlowConst:
+    UNDO = ':actionbarOverflowUndo_HTML_Object'
+    REDO = ':actionbarOverflowRedo_HTML_Object'
+    PDU = ':actionbarOverflowPDU_HTML_Object'
+    PDU_OFF = ':actionbarOverflowPDUOff_HTML_Object'
+    SCENARIO = ':actionbarOverflowScenario_HTML_Object'
+    NETSPACE_LOGIN = ':onLogin_HTML_Object'
+    EMAIL_SHARE = ':email_HTML_Object'
+    FACEBOOK_SHARE = ':onScreenShot_HTML_Object'
+    TWITTER_SHARE = ':twitterBtn_HTML_Object'
+    OPTIONS = ':actionbarOverflowOptionsButton_HTML_Object'
+    USER_PROFILE = ':actionbarOverflowUserProfile_HTML_Object'

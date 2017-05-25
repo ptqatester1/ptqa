@@ -1,0 +1,36 @@
+#******************************************************************************
+#@author: Tuan Hoang
+#@summary: InstructionsConst contains the common constants used in Instructions
+#******************************************************************************
+class InstructionsConst:
+    INSTRUCTIONS = ":Activity_Wizard.m_navigationBtnGrpBox.InstructionsBtn"
+    TAB_BAR = ":Activity_Wizard.m_contents.Instructions.splitter.m_instructionTabs"
+    EDIT = "Edit"
+    INSTRUCTIONS_TEXT_FIELD = ":Activity_Wizard.m_contents.Instructions.splitter.m_instructionTabs.qt_tabwidget_stackedwidget.m_editTab.m_txtInstruction"
+    PAGE_NUMBER = ":Activity_Wizard.m_contents.Instructions.m_instPageNum"
+    PREVIOUS_PAGE = ":Activity_Wizard.m_contents.Instructions.InstPrevBtn"
+    NEXT_PAGE = ":Activity_Wizard.m_contents.Instructions.InstNextBtn"
+    INSERT_PAGE = ":Activity_Wizard.m_contents.Instructions.InsertBtn"
+    REMOVE_PAGE = ":Activity_Wizard.m_contents.Instructions.InstRemoveBtn"
+    IMPORT_PAGE = ":Activity_Wizard.m_contents.Instructions.ImportBtn"
+    IMPORT_PAGE_DIALOG = ":Activity_Wizard.QFileDialog.fileNameEdit"
+    IMPORT_PAGE_DIALOG_OPEN = ":Activity_Wizard.QFileDialog.buttonBox.Open"
+    IMPORT_PAGE_DIALOG_CANCEL = ":Activity_Wizard.QFileDialog.buttonBox.Cancel"
+    EXPORT_PAGE = ":Activity_Wizard.m_contents.Instructions.ExportBtn"
+    EXPORT_PAGE_DIALOG = ":Activity_Wizard.QFileDialog.fileNameEdit"
+    EXPORT_PAGE_DIALOG_SAVE = ":Activity_Wizard.QFileDialog.buttonBox.Save"
+    EXPORT_PAGE_DIALOG_CANCEL = ":Activity_Wizard.QFileDialog.buttonBox.Cancel"
+    EXPORT_PAGE_DIALOG_OVERWRITE_YES = ":Activity_Wizard.QFileDialog.Export Instruction File.qt_msgbox_buttonbox.Yes"
+    EXPORT_PAGE_DIALOG_OVERWRITE_NO = ":Activity_Wizard.QFileDialog.Export Instruction File.qt_msgbox_buttonbox.No"
+    IMPORT_ALL = ":Activity_Wizard.m_contents.Instructions.ImportAllBtn"
+    IMPORT_ALL_DIALOG = ":Activity_Wizard.QFileDialog.fileNameEdit"
+    IMPORT_ALL_DIALOG_CHOOSE = ":Activity_Wizard.QFileDialog.buttonBox.Choose"
+    IMPORT_ALL_DIALOG_CANCEL = ":Activity_Wizard.QFileDialog.buttonBox.Cancel"
+    EXPORT_ALL = ":Activity_Wizard.m_contents.Instructions.ExportAllBtn"
+    EXPORT_ALL_DIALOG = ":Activity_Wizard.QFileDialog.fileNameEdit"
+    EXPORT_ALL_DIALOG_CHOOSE = ":Activity_Wizard.QFileDialog.buttonBox.Choose"
+    EXPORT_ALL_DIALOG_CANCEL = ":Activity_Wizard.QFileDialog.buttonBox.Cancel"
+    AUTO_LOAD_EXTERNAL_FILES = ":Activity_Wizard.m_contents.Instructions.AutoLoadCB"
+    PREVIEW_AS_HTML = "Preview as HTML"
+    PREVIEW_AS_HTML_TEXT = ":Activity_Wizard.m_contents.Instructions.splitter.m_instructionTabs.qt_tabwidget_stackedwidget.m_previewHTMLTab.CWebView1.DOCUMENT.HTML1.BODY1"
+    VARIABLE_MANAGER_TABLE = ':Activity_Wizard.m_contents.Instructions.m_varInstruction'

@@ -1,0 +1,37 @@
+#*********************************************************************************
+#@author: Pam Vinco
+#@summary: MainToolbarConst contains the common constants used in the Main Toolbar
+#*********************************************************************************
+class MainToolbarConst:
+    MAIN_TOOLBAR = ":CAppWindowBase.m_pToolBar"
+    NEW = ":CAppWindowBase.m_pToolBar.New"
+    OPEN = ":CAppWindowBase.m_pToolBar.Open"
+    SAVE = ":CAppWindowBase.m_pToolBar.Save"
+    PRINT = ":CAppWindowBase.m_pToolBar.Print"
+    ACTIVITY_WIZARD = ":CAppWindowBase.m_pToolBar.Activity Wizard"
+    ACTIVITY_WIZARD_PASSWORD_DIALOG = ":Password? -- Packet Tracer"
+    ACTIVITY_WIZARD_PASSWORD = ":Password? -- Packet Tracer.QLineEdit1"
+    ACTIVITY_WIZARD_PASSWORD_OK = ":Password? -- Packet Tracer.QDialogButtonBox1.OK"
+    ACTIVITY_WIZARD_PASSWORD_CANCEL = ":Password? -- Packet Tracer.QDialogButtonBox1.Cancel"    
+    USE_AS_ANSWER_NETWORK_PROMPT = ":CAppWindowBase.Use as the Answer Network? -- Packet Tracer"
+    USE_AS_ANSWER_NETWORK_YES = ":CAppWindowBase.Use as the Answer Network? -- Packet Tracer.qt_msgbox_buttonbox.Yes"
+    USE_AS_ANSWER_NETWORK_NO = ":CAppWindowBase.Use as the Answer Network? -- Packet Tracer.qt_msgbox_buttonbox.No"
+    USE_AS_ANSWER_NETWORK_CANCEL = ":CAppWindowBase.Use as the Answer Network? -- Packet Tracer.qt_msgbox_buttonbox.Cancel"
+    COPY = ":CAppWindowBase.m_pToolBar.Copy"
+    PASTE = ":CAppWindowBase.m_pToolBar.Paste"
+    UNDO = ":CAppWindowBase.m_pToolBar.Undo"
+    REDO = ":CAppWindowBase.m_pToolBar.Redo"
+    ZOOM_IN = ":CAppWindowBase.m_pToolBar.Zoom In"
+    ZOOM_RESET = ":CAppWindowBase.m_pToolBar.Zoom Reset"
+    ZOOM_OUT = ":CAppWindowBase.m_pToolBar.Zoom Out"
+
+    PALETTE = ":CAppWindowBase.m_pToolBar.Drawing Palette"
+    CUSTOM_DEVICES = ":CAppWindowBase.m_pToolBar.Custom Devices Dialog"
+    NETWORK_DESCRIPTION = ":CAppWindowBase.m_pToolBar.Network Information"
+    NETWORK_DESCRIPTION_WINDOW = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.Network Description:"
+    NETWORK_DESCRIPTION_TEXT = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.Network Description:.CBaseInfoDialog.webView"
+    NETWORK_DESCRIPTION_BOX = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.Network Description:.CBaseInfoDialog."
+    NETWORK_DESCRIPTION_BOX_CONTENT = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.Network Description:.CBaseInfoDialog.webView.DOCUMENT.HTML1.BODY1"
+    NETWORK_DESCRIPTION_BOX_HTML = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.Network Description:.CBaseInfoDialog.webView.DOCUMENT.HTML1"
+    CONTENTS = ":CAppWindowBase.m_pToolBar.Contents"
+    NETWORK_DESCRIPTION_TEXT2 = ":Network Description:.webView_QWebView"
