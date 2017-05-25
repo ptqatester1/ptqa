@@ -1,0 +1,235 @@
+#Thi
+from API.ComponentBox import ComponentBoxConst
+
+from API.Device.LinksysRouter.LinksysRouter import LinksysRouter
+
+from API.Device.EndDevice.PC.PC import PC
+from API.Utility.Util import Util
+from API.Utility.Util import UtilConst
+from API.Device.Router.Router import Router
+
+#Function initialization
+util = Util()
+
+#Device initialization
+pc1 = PC(ComponentBoxConst.DeviceModel.PC, 180, 311, "PC1")
+wirelessRouter0 = LinksysRouter(ComponentBoxConst.DeviceModel.LINKSYS, 313, 251, "Wireless Router0")
+Router1 = Router(ComponentBoxConst.DeviceModel.ROUTER_1841, 450, 252, "Router1")
+
+def main():
+    createTopology()
+    backUp()
+    restoreDefaultCancel()
+    restoreDefaultOK()
+    checkPointPCDefault()
+    restoreConfigurationsOk()
+    checkPointPC_WRS_LAN()
+    updateFirmware()
+    
+def createTopology():
+    #a.    Create and connect devices according to diagram.
+    #a.    On PC0, remove ethernet interface and insert Linksys WRT-300N.
+    util.open("UI20_Improved_Linksys.pkt", UtilConst.UI_TEST)
+    util.speedUpConvergence()
+    
+def backUp():
+    pc1.select()
+    pc1.maximizeDeviceWindow()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    pc1.desktop.webBrowser.browse("172.16.67.10")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "cisco123")
+    pc1.gui.tabs.administration()
+    pc1.gui.administration.management.backupConfigurationButton()
+    snooze(2)
+    pc1.gui.administration.management.directory("Desktop.WRT300N-v1\\.1\\_1\\.51\\.2\\_fw,0\\.bin")
+    
+def restoreDefaultCancel():
+    snooze(3)
+    pc1.gui.tabs.facotryDefaults()
+    snooze(2)
+    pc1.gui.administration.factoryDefaults.restoreFactoryDefaultsButton()
+    snooze(2)
+    pc1.gui.administration.factoryDefaults.restoreCancelButton()
+    pc1.gui.tabs.setup()
+    pc1.gui.setup.basicSetup.internetSetup.check.connectionType("Static IP")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_1("172")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_2("16")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_3("67")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_4("10")  
+    
+def restoreDefaultOK():
+    snooze(3)
+    pc1.gui.tabs.administration()
+    snooze(3)
+    pc1.gui.tabs.facotryDefaults()
+    snooze(1)
+    pc1.gui.administration.factoryDefaults.restoreFactoryDefaultsButton()
+    snooze(3)
+    pc1.gui.administration.factoryDefaults.restoreOkButton()
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickConfigTab()
+    pc1.config.selectInterface("Wireless0")
+    pc1.config.interface.wireless.disabled()
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.commandPrompt()
+    snooze(5)
+    pc1.desktop.commandPrompt.setText("ipconfig /renew")
+    util.fastForwardTime()
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    snooze(2)
+    pc1.desktop.webBrowser.browse("192.168.0.1")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "admin")
+    
+    pc1.gui.tabs.setup()
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_1('0')
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_2('0')
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_3('0')
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_4('0')
+    
+    pc1.gui.setup.basicSetup.networkSetup.dhcpServerSettings.check.startIp("0")
+    pc1.gui.setup.basicSetup.networkSetup.dhcpServerSettings.check.maxUsers("50")
+    pc1.gui.tabs.wireless()
+    pc1.gui.wireless.basicWirelessSettings.networkName("Default")
+    pc1.gui.tabs.wirelessSecurity()
+    pc1.gui.wireless.wirelessSecurity.check.securityMode("Disabled")
+    pc1.close()
+
+def checkPointPCDefault():
+    pc1.select()
+    pc1.clickConfigTab()
+    pc1.config.selectInterface("Wireless0")
+    snooze(1)
+    pc1.config.interface.wireless.disabled()
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.commandPrompt()
+    pc1.desktop.commandPrompt.setText("ipconfig /all")
+    util.fastForwardTime()
+    snooze(5)
+    pc1.desktop.commandPrompt.setText("ipconfig /all")
+    pc1.desktop.commandPrompt.textCheckPoint("IP Address......................: 192.168.0.100")
+    pc1.desktop.commandPrompt.textCheckPoint("Subnet Mask.....................: 255.255.255.0")
+    pc1.desktop.commandPrompt.textCheckPoint("Default Gateway.................: 192.168.0.1")
+    pc1.close()
+   
+def restoreConfigurationsOk():
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    snooze(2)
+    pc1.desktop.webBrowser.browse("192.168.0.1")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "admin")
+    pc1.gui.tabs.administration()
+    pc1.gui.tabs.management()
+    pc1.gui.administration.management.restoreConfigurationButton()
+    pc1.gui.administration.management.directory("Desktop.WRT300N-v1\\.1\\_1\\.51\\.2\\_fw,0\\.bin\\.cfg")
+    
+    snooze(15)
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickConfigTab()
+    pc1.config.selectInterface("Wireless0")
+    pc1.config.interface.wireless.wep()
+    pc1.config.interface.wireless.wepkey("12345ABCDE")
+    pc1.config.interface.wireless.encryption("40/64-Bits (10 Hex digits)")
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.commandPrompt()
+    snooze(5)
+    pc1.desktop.commandPrompt.setText("ipconfig /renew")
+
+    util.fastForwardTime()
+    
+    pc1.desktop.commandPrompt.textCheckPoint("IP Address......................: 172.16.100.2")
+    pc1.desktop.commandPrompt.textCheckPoint("Subnet Mask.....................: 255.255.255.0")
+    pc1.desktop.commandPrompt.textCheckPoint("Default Gateway.................: 172.16.100.1")
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    snooze(2)
+    pc1.desktop.webBrowser.browse("172.16.100.1")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "cisco123")
+    pc1.gui.tabs.setup()
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_1("172")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_2("16")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_3("67")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.ip_octave_4("10")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.mask_octave_1("255")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.mask_octave_2("255")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.mask_octave_3("255")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.mask_octave_4("0")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.gateway_octave_1("172")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.gateway_octave_2("16")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.gateway_octave_3("67")
+    pc1.gui.setup.basicSetup.internetSetup.static.check.gateway_octave_4("2")
+    pc1.gui.setup.basicSetup.networkSetup.routerIp.check.ip_edit_1("172")
+    pc1.gui.setup.basicSetup.networkSetup.routerIp.check.ip_edit_2("16")
+    pc1.gui.setup.basicSetup.networkSetup.routerIp.check.ip_edit_3("100")
+    pc1.gui.setup.basicSetup.networkSetup.routerIp.check.ip_edit_4("1")
+    pc1.gui.setup.basicSetup.networkSetup.dhcpServerSettings.check.startIp("1")
+    pc1.gui.setup.basicSetup.networkSetup.dhcpServerSettings.check.maxUsers("25")
+    pc1.gui.tabs.wireless()
+    pc1.gui.wireless.basicWirelessSettings.networkName("Default")
+    pc1.gui.tabs.wirelessSecurity()
+    pc1.gui.wireless.wirelessSecurity.check.securityMode("WEP")
+    pc1.gui.wireless.wirelessSecurity.wep.check.key1("12345ABCDE")
+    pc1.close()
+
+def checkPointPC_WRS_LAN():
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.commandPrompt()
+    pc1.desktop.commandPrompt.setText("ping 172.16.100.1")
+    util.clickOnSimulation()
+    util.clickOnRealtime()
+    pc1.desktop.commandPrompt.textCheckPoint("Reply from 172.16.100.1")
+    pc1.close()
+    
+def updateFirmware():
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    snooze(2)
+    pc1.desktop.webBrowser.browse("172.16.100.1")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "cisco123")
+    pc1.gui.tabs.administration()
+    pc1.gui.tabs.firmwareUpgrade()
+    pc1.gui.administration.firmwareUpgrade.browseButton()
+    pc1.gui.administration.firmwareUpgrade.browse.selectFirmware("Desktop.WRT300N-v1\\.1\\_1\\.51\\.2\\_fw,0\\.bin")
+    pc1.gui.administration.firmwareUpgrade.browse.okButton()
+    pc1.gui.administration.firmwareUpgrade.startUpgradeButton()
+    snooze(10)
+    pc1.close()
+    
+    pc1.select()
+    pc1.clickDesktopTab()
+    pc1.desktop.applications.webBrowser()
+    snooze(2)
+    pc1.desktop.webBrowser.browse("172.16.100.1")
+    snooze(5)
+    pc1.desktop.webBrowser.authenticateRouter("admin", "cisco123")
+    snooze(1)
+    pc1.gui.tabs.status()
+    pc1.gui.status.router.check.firmwareVersion("v1.1_1.51.2")

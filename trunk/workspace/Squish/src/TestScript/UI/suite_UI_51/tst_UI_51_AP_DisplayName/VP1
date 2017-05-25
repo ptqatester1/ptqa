@@ -1,0 +1,5 @@
+<!DOCTYPE VerificationPoint>
+<VerificationPoint type="ObjectProperties" >
+ <Description></Description>
+ <Verification property="text" valueType="Value" type="QString" object=":m_menuCfgTab.m_hostNameEdit_QLineEdit_2" ><![CDATA[TEST]]></Verification>
+</VerificationPoint>

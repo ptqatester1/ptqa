@@ -1,0 +1,173 @@
+:Activity Wizard.Replace Initial Network? -- Packet Tracer.qt_msgbox_buttonbox.Yes	Activity Wizard.Replace Initial Network? -- Packet Tracer.qt_msgbox_buttonbox.Yes
+:Activity Wizard.m_contents.Initial_Network.groupBox1_4.CopyAnsNetBtn	Activity Wizard.m_contents.Initial_Network.groupBox1_4.CopyAnsNetBtn
+:Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_stackedwidget.initSetupTab.m_initialTreeLV	Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_stackedwidget.initSetupTab.m_initialTreeLV
+:Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_stackedwidget.initSetupTab.m_initialTreeLV.qt_viewport.qt_renamebox	Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_stackedwidget.initSetupTab.m_initialTreeLV.qt_viewport.qt_renamebox
+:Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_tabbar	Activity Wizard.m_contents.Initial_Network.m_initNetTabs.qt_tabwidget_tabbar
+:Activity Wizard.m_contents_Q3WidgetStack	{name='m_contents' type='Q3WidgetStack' visible='1' window=':Activity Wizard_CActivityWizard'}
+:Activity Wizard.m_navigationBtnGrp.InitialNetworkBtn	Activity Wizard.m_navigationBtnGrp.InitialNetworkBtn
+:Activity Wizard.m_navigationBtnGrp_Q3ButtonGroup	{name='m_navigationBtnGrp' type='Q3ButtonGroup' visible='1' window=':Activity Wizard_CActivityWizard'}
+:Activity Wizard_CActivityWizard	{name='Activity Wizard' type='CActivityWizard' visible='1' windowTitle='Activity Wizard'}
+:Analog Phone0.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':Analog Phone0_CRepeaterDialog'}
+:Analog Phone0.qt_tabwidget_tabbar_QTabBar	{name='qt_tabwidget_tabbar' type='QTabBar' visible='1' window=':Analog Phone0_CRepeaterDialog'}
+:Analog Phone0_CRepeaterDialog	{name='CBaseDeviceWidget' type='CRepeaterDialog' visible='1' windowTitle='Analog Phone0'}
+:CAppWindowBase	CAppWindowBase
+:CAppWindowBase.Open File Dialog.OK	CAppWindowBase.Open File Dialog.OK
+:CAppWindowBase.Open File Dialog.directory history/editor	CAppWindowBase.Open File Dialog.directory history/editor
+:CAppWindowBase.Open File Dialog.qt_splitter.files and more files.filelistbox	CAppWindowBase.Open File Dialog.qt_splitter.files and more files.filelistbox
+:CAppWindowBase.Use as the Answer Network? -- Packet Tracer.qt_msgbox_buttonbox.Yes	CAppWindowBase.Use as the Answer Network? -- Packet Tracer.qt_msgbox_buttonbox.Yes
+:CAppWindowBase.qt_top_dock.m_pToolBar.Activity Wizard \\.\\.\\.	CAppWindowBase.qt_top_dock.m_pToolBar.Activity Wizard \\.\\.\\.
+:CAppWindowBase.qt_top_dock.m_pToolBar.Open \\.\\.\\.	CAppWindowBase.qt_top_dock.m_pToolBar.Open \\.\\.\\.
+:CAppWindowBase.qt_top_dock.m_pToolBar.Undo	CAppWindowBase.qt_top_dock.m_pToolBar.Undo
+:CAppWindowBase.widget.CRSSwitch	CAppWindowBase.widget.CRSSwitch
+:CAppWindowBase.widget.CRSSwitch.RealtimeBtn	CAppWindowBase.widget.CRSSwitch.RealtimeBtn
+:CAppWindowBase.widget.CRSSwitch.SimulationBtn	CAppWindowBase.widget.CRSSwitch.SimulationBtn
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea1.qt_scrollarea_viewport.QWidget1.CDeviceButton1	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea1.qt_scrollarea_viewport.QWidget1.CDeviceButton1
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea3.qt_scrollarea_viewport.QWidget1.CDeviceButton3	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea3.qt_scrollarea_viewport.QWidget1.CDeviceButton3
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea5.qt_scrollarea_viewport.QWidget1.CDeviceButton1	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea5.qt_scrollarea_viewport.QWidget1.CDeviceButton1
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_hcontainer.QScrollBar1	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_hcontainer.QScrollBar1
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton1	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton1
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton11	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton11
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton12	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton12
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton3	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton3
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton4	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton4
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton5	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton5
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton6	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton6
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton7	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton7
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton8	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceSpecificWidget.QScrollArea6.qt_scrollarea_viewport.QWidget1.CDeviceButton8
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton3	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton3
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton4	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton4
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton5	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton5
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton6	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton6
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton7	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton7
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton8	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.CDeviceButton8
+:CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.End Devices	CAppWindowBase.widget.m_pNwCmpbxFrame.m_pNetWorkCompBoxFrame.QSplitter1.CNetworkComponentBox.DeviceTypesWidget.End Devices
+:CAppWindowBase.widget.m_pPLToolBox.CPLToolBox_Impl.m_manipulateButtonGroup.DeleteBtn	CAppWindowBase.widget.m_pPLToolBox.CPLToolBox_Impl.m_manipulateButtonGroup.DeleteBtn
+:CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace	CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace
+:CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace.Confirm Delete.qt_msgbox_buttonbox.Cancel	CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace.Confirm Delete.qt_msgbox_buttonbox.Cancel
+:CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace.No PDU Info -- Packet Tracer.qt_msgbox_buttonbox.OK	CAppWindowBase.widget.m_pWorkSpaceWnd.ViewArea_Window.QStackedWidget1.CWorkspace1.LogicalWorkspace.No PDU Info -- Packet Tracer.qt_msgbox_buttonbox.OK
+:CBaseDeviceWidget	CBaseDeviceWidget
+:CBaseDeviceWidget.browser	CBaseDeviceWidget.browser
+:CBaseDeviceWidget.browser.m_backButton	CBaseDeviceWidget.browser.m_backButton
+:CBaseDeviceWidget.browser.m_fwdButton	CBaseDeviceWidget.browser.m_fwdButton
+:CBaseDeviceWidget.browser.m_goButton	CBaseDeviceWidget.browser.m_goButton
+:CBaseDeviceWidget.browser.m_stopButton	CBaseDeviceWidget.browser.m_stopButton
+:CBaseDeviceWidget.browser.m_titleBar	CBaseDeviceWidget.browser.m_titleBar
+:CBaseDeviceWidget.browser.m_titleBar.m_closeButton	CBaseDeviceWidget.browser.m_titleBar.m_closeButton
+:CBaseDeviceWidget.browser.m_titleBar.m_titleLabel	CBaseDeviceWidget.browser.m_titleBar.m_titleLabel
+:CBaseDeviceWidget.browser.m_urlEdit	CBaseDeviceWidget.browser.m_urlEdit
+:CBaseDeviceWidget.browser.m_urlLabel	CBaseDeviceWidget.browser.m_urlLabel
+:CBaseDeviceWidget.browser.m_webViewWindow	CBaseDeviceWidget.browser.m_webViewWindow
+:CBaseDeviceWidget.browser.m_webViewWindow.qt_hbar	CBaseDeviceWidget.browser.m_webViewWindow.qt_hbar
+:CBaseDeviceWidget.browser.m_webViewWindow.qt_vbar	CBaseDeviceWidget.browser.m_webViewWindow.qt_vbar
+:CBaseDeviceWidget.c_physicalTab	CBaseDeviceWidget.c_physicalTab
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_imageLabel	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_imageLabel
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox.m_radioOffBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox.m_radioOffBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox.m_radioOnBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.CTVPhysical.m_statusGroupBox.m_radioOnBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.CommandPromptBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.CommandPromptBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.CommandPromptLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.CommandPromptLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.DialupBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.DialupBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.DialupLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.DialupLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.IPConfigBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.IPConfigBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.IPConfigLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.IPConfigLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.PCWirelessBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.PCWirelessBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.PCWirelessLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.PCWirelessLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.TerminalBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.TerminalBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.TerminalLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.TerminalLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.WebBrowserBtn	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.WebBrowserBtn
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.WebBrowserLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.WebBrowserLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_EMailLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_EMailLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_MIBBroswerButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_MIBBroswerButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_PCEMailButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_PCEMailButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_VPNButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_VPNButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_VPNLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_VPNLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_ipCommunicator	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_ipCommunicator
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_ipCommunicatorLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_ipCommunicatorLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_mibBrowserLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_mibBrowserLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_pppoeDialerButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_pppoeDialerButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_pppoeDialerLabel	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_pppoeDialerLabel
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_textEditorButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_textEditorButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_textEditorLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_textEditorLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_trafficGeneratorButton	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_trafficGeneratorButton
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_trafficGeneratorLbl	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.m_desktopFrame.m_trafficGeneratorLbl
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiHtmlTab.m_guiEdit	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiHtmlTab.m_guiEdit
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiHtmlTab.m_guiEdit.QWebView1	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiHtmlTab.m_guiEdit.QWebView1
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelHandSet	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelHandSet
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelInput	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelInput
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn1	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn1
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn2	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn2
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn3	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn3
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn4	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_btn4
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelBG	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelBG
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelIndicator	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelIndicator
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_htmlTab.m_htmlEdit	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_htmlTab.m_htmlEdit
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.QScrollArea1.qt_scrollarea_viewport.CBaseConfigTab.m_baseConfigTabWidget.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.m_workstationIfCfg.grpIPSettings.m_ipAddrEdit	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.QScrollArea1.qt_scrollarea_viewport.CBaseConfigTab.m_baseConfigTabWidget.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.m_workstationIfCfg.grpIPSettings.m_ipAddrEdit
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.m_repeaterGlobalCfg.m_hostNameEdit	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.m_repeaterGlobalCfg.m_hostNameEdit
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.m_textInfoConfig	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.m_textInfoConfig
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.m_titleLabel	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.m_titleLabel
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.scrollView	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_stackedwidget.m_physicalTab.scrollView
+:CBaseDeviceWidget.c_physicalTab.qt_tabwidget_tabbar	CBaseDeviceWidget.c_physicalTab.qt_tabwidget_tabbar
+:CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessMACFilter.m_middlePanel.m_lineEdit1	CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessMACFilter.m_middlePanel.m_lineEdit1
+:CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessMACFilter.m_middlePanel.m_lineEdit12	CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessMACFilter.m_middlePanel.m_lineEdit12
+:CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessSettings.m_middlePanel.bottomPurpleFrame.btnSave	CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessSettings.m_middlePanel.bottomPurpleFrame.btnSave
+:CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessSettings.m_middlePanel.mainConfigFrame.comboMode	CBaseDeviceWidgetClass.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.CBaseLinkSysGUI.CBaseWirelessSettings.m_middlePanel.mainConfigFrame.comboMode
+:Cisco Packet Tracer (5.3 Build 21) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 21) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 21) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 21) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Cisco Packet Tracer (5.3 Build 41) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 41) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 41) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 41) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Cisco Packet Tracer (5.3 Build 61) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 61) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 61) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 61) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Cisco Packet Tracer (5.3 Build 63) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 63) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 63) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 63) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Cisco Packet Tracer (5.3 Build 72) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 72) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 72) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 72) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Cisco Packet Tracer (5.3 Build 73) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame	{name='m_pWorkSpaceWnd' type='Q3Frame' visible='1' window=':Cisco Packet Tracer (5.3 Build 73) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow'}
+:Cisco Packet Tracer (5.3 Build 73) - P:/Pkt_Pka_ForTesting/UI/TV.pkt_CAppWindow	{name='CAppWindowBase' type='CAppWindow' visible='1' windowTitle='Cisco Packet Tracer (5.3 Build 73) - P:/Pkt_Pka_ForTesting/UI/TV.pkt'}
+:Form.m_imageTextBrowser_QTextBrowser	{container=':qt_tabwidget_stackedwidget.Form_QWidget' name='m_imageTextBrowser' type='QTextBrowser' visible='1'}
+:Home VoIP0.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':Home VoIP0_CRepeaterDialog'}
+:Home VoIP0_CRepeaterDialog	{name='CBaseDeviceWidget' type='CRepeaterDialog' visible='1' windowTitle='Home VoIP0'}
+:IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelInput	IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.labelInput
+:IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.lblNumber4Digits	IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.lblNumber4Digits
+:IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelBG	IP Phone0.c_physicalTab.qt_tabwidget_stackedwidget.m_guiTab.QScrollArea1.qt_scrollarea_viewport.QWidget1.IP Phone GUI.m_labelBG
+:IP Phone0.c_physicalTab.qt_tabwidget_tabbar	IP Phone0.c_physicalTab.qt_tabwidget_tabbar
+:IP Phone0.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':IP Phone0_CIPPhoneDialog'}
+:IP Phone0_CIPPhoneDialog	{name='CBaseDeviceWidget' type='CIPPhoneDialog' visible='1' windowTitle='IP Phone0'}
+:TV0.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':TV0_CTVDialog'}
+:TV0.qt_tabwidget_tabbar_QTabBar	{name='qt_tabwidget_tabbar' type='QTabBar' visible='1' window=':TV0_CTVDialog'}
+:TV0_CTVDialog	{name='CBaseDeviceWidget' type='CTVDialog' visible='1' windowTitle='TV0'}
+:Wired End Device0.qt_tabwidget_stackedwidget_QStackedWidget	{name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':Wired End Device0_CWorkstationDialog'}
+:Wired End Device0_CWorkstationDialog	{name='CBaseDeviceWidget' type='CWorkstationDialog' visible='1' windowTitle='Wired End Device0'}
+:Wireless End Device0.qt_tabwidget_tabbar_QTabBar	{name='qt_tabwidget_tabbar' type='QTabBar' visible='1' window=':Wireless End Device0_CWorkstationDialog'}
+:Wireless End Device0_CWorkstationDialog	{name='CBaseDeviceWidget' type='CWorkstationDialog' visible='1' windowTitle='Wireless End Device0'}
+:_	{}
+:initSetupTab.m_initialTreeLV_Q3ListView	{container=':qt_tabwidget_stackedwidget.initSetupTab_QWidget' name='m_initialTreeLV' type='Q3ListView' visible='1'}
+:m_contents.qt_tabwidget_stackedwidget_QStackedWidget	{container=':Activity Wizard.m_contents_Q3WidgetStack' name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1'}
+:m_contents.qt_tabwidget_tabbar_QTabBar	{container=':Activity Wizard.m_contents_Q3WidgetStack' name='qt_tabwidget_tabbar' type='QTabBar' visible='1'}
+:m_guiEdit_QWebView	{container=':m_guiHtmlTab.m_guiEdit_Q3TextEdit' type='QWebView' unnamed='1' visible='1'}
+:m_guiHtmlTab.m_guiEdit_Q3TextEdit	{container=':qt_tabwidget_stackedwidget.m_guiHtmlTab_QWidget' name='m_guiEdit' type='Q3TextEdit' visible='1'}
+:m_guiTab.Connected_QLabel	{container=':qt_tabwidget_stackedwidget.m_guiTab_QWidget_2' name='labelInput' text='Connected' type='QLabel' visible='1'}
+:m_guiTab.Form_CAnalogPhoneGUI	{container=':qt_tabwidget_stackedwidget.m_guiTab_QWidget' name='IP Phone GUI' type='CAnalogPhoneGUI' visible='1' windowTitle='Form'}
+:m_guiTab.From: 9870_QLabel	{container=':qt_tabwidget_stackedwidget.m_guiTab_QWidget_2' name='lblNumber4Digits' text='From: 9870' type='QLabel' visible='1'}
+:m_guiTab.labelHandSet_QLabel	{container=':qt_tabwidget_stackedwidget.m_guiTab_QWidget' name='labelHandSet' type='QLabel' visible='1'}
+:m_guiTab.m_labelBG_QLabel	{container=':qt_tabwidget_stackedwidget.m_guiTab_QWidget' name='m_labelBG' type='QLabel' visible='1'}
+:m_htmlTab.m_htmlEdit_Q3TextEdit	{container=':qt_tabwidget_stackedwidget.m_htmlTab_QWidget' name='m_htmlEdit' type='Q3TextEdit' visible='1'}
+:m_menuCfgTab.m_hostNameEdit_QLineEdit	{container=':qt_tabwidget_stackedwidget.m_menuCfgTab_QWidget' name='m_hostNameEdit' type='QLineEdit' visible='1'}
+:m_navigationBtnGrp.Initial Network_QPushButton	{container=':Activity Wizard.m_navigationBtnGrp_Q3ButtonGroup' name='InitialNetworkBtn' text='Initial Network' type='QPushButton' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace	{container=':Cisco Packet Tracer (5.3 Build 21) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace_2	{container=':Cisco Packet Tracer (5.3 Build 41) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace_3	{container=':Cisco Packet Tracer (5.3 Build 61) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace_4	{container=':Cisco Packet Tracer (5.3 Build 63) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace_5	{container=':Cisco Packet Tracer (5.3 Build 72) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:m_pWorkSpaceWnd.LogicalWorkspace_CLogicalWorkspace_6	{container=':Cisco Packet Tracer (5.3 Build 73) - P:/Pkt_Pka_ForTesting/UI/TV.pkt.m_pWorkSpaceWnd_Q3Frame' name='LogicalWorkspace' type='CLogicalWorkspace' visible='1'}
+:qt_tabwidget_stackedwidget.Form_QWidget	{container=':TV0.qt_tabwidget_stackedwidget_QStackedWidget' name='CTVPhysical' type='QWidget' visible='1' windowTitle='Form'}
+:qt_tabwidget_stackedwidget.initSetupTab_QWidget	{container=':m_contents.qt_tabwidget_stackedwidget_QStackedWidget' name='initSetupTab' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.m_guiHtmlTab_QWidget	{container=':Wired End Device0.qt_tabwidget_stackedwidget_QStackedWidget' name='m_guiHtmlTab' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.m_guiTab_QWidget	{container=':Analog Phone0.qt_tabwidget_stackedwidget_QStackedWidget' name='m_guiTab' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.m_guiTab_QWidget_2	{container=':IP Phone0.qt_tabwidget_stackedwidget_QStackedWidget' name='m_guiTab' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.m_htmlTab_QWidget	{container=':Wired End Device0.qt_tabwidget_stackedwidget_QStackedWidget' name='m_htmlTab' type='QWidget' visible='1'}
+:qt_tabwidget_stackedwidget.m_menuCfgTab_QWidget	{container=':Home VoIP0.qt_tabwidget_stackedwidget_QStackedWidget' name='m_menuCfgTab' type='QWidget' visible='1'}
