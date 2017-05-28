@@ -131,7 +131,7 @@ class HomePage:
     @customInteractions
     def getListObject(self):
         snooze(1)
-        deviceList = TF().findTagWithID(self.squishName + WebBrowser.RegistrationServer.MAIN_WEB_VIEW_BODY, 'devicesDiv')
+        deviceList = TF().findTagWithID(self.squishName + WebBrowser.RegistrationServer.MAIN_HTML_BODY, 'devicesDiv')
         return deviceList
     
     @customInteractions

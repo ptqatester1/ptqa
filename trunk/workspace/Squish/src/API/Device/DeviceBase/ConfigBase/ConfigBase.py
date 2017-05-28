@@ -238,7 +238,7 @@ class Config(SquishObjectName, Object):
 	
 	@property
 	def interfaceListName(self):
-		return self.objName(".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.scrollView.qt_scrollarea_viewport.scrollAreaWidget.QFrame1")
+		return self.objName(".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.m_menuCfgScrollView.qt_scrollarea_viewport.scrollAreaWidget.QFrame1")
 	
 	@property
 	def interfaceListObject(self):

@@ -25,13 +25,13 @@ class PhysicalConst(PhysicalBaseConst):
 
 class Settings(GlobalSettings):
 	SERIAL_NUMBER = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_serialNumber'
-	NONE_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_noIoeServer'
-	HOME_GATEWAY_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_lanServer'
-	REMOTE_SERVER_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_remoteServer'
-	SERVER_ADDRESS_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_serverAddress'
-	USER_NAME_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_username'
-	PASSWORD_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_password'
-	CONNECT_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.m_IoEServerGroupBox.m_reconnectRegistration'
+	NONE_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_noIoeServer'
+	HOME_GATEWAY_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_lanServer'
+	REMOTE_SERVER_RADIO = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_remoteServer'
+	SERVER_ADDRESS_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_serverAddress'
+	USER_NAME_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_username'
+	PASSWORD_EDIT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_password'
+	CONNECT_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.CUniversalGlobalSettings.mainScrollArea.qt_scrollarea_viewport.mainScrollAreaContents.m_IoEServerGroupBox.m_reconnectRegistration'
 
 class Files:
 	UP_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseDeviceFileManager.m_upBtn'
