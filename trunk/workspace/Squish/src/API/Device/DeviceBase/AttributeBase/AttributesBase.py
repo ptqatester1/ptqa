@@ -27,5 +27,15 @@ class Attributes(SquishObjectName):
 		
 		elif name == "wattage":
 			Util().textCheckPoint(self.objName(AttributesConst.WATTAGE), attribute)
-			
+		
+	def getPropertyValue(self, property):
+		table_object_name = self.objName(AttributesConst.PROPERTIES_TABLE)
+		table = findObject(table_object_name)
+		for i in range(table.rowCount):
+			row_name = findObject(table_object_name + '.item_0/0')
+			row_value = findObject(table_object_name + '.item_0/1')
+			if not row_name.text == property:
+				continue
+			return row_value.text
+		raise  ValueError('No property with name %s found' % (property))
 	
