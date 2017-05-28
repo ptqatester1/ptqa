@@ -135,7 +135,7 @@ class Programming(SquishObjectName):
 			elif script:
 				self.qtDoubleClickSelect(script)
 			else:
-				raise('Could not find the script with that name')
+				ValueError('Could not find the script with that name')
 			snooze(2)
 		None
 	
