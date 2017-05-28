@@ -170,13 +170,15 @@ class Util(SquishSyntax):
         self.componentBox.clickButton(DeviceType.CONNECTION)
         self.componentBox.clickButton(p_connection)
         self.clickOnWorkspace(p_x1, p_y1)
+        old_drop_down = UtilConst.CONNECTION_DROPDOWN
+        drop_down = '.'.join([self.findWorkspace(), old_drop_down.split('.')[-1]])
         if p_connection != Connection.CONN_AUTO:
             snooze(1)
-            self.activateItem(waitForObject(UtilConst.CONNECTION_DROPDOWN), p_port1)
+            self.activateItem(drop_down, p_port1)
         self.clickOnWorkspace(p_x2, p_y2)
         if p_connection != Connection.CONN_AUTO:
             snooze(1)
-            self.activateItem(waitForObject(UtilConst.CONNECTION_DROPDOWN), p_port2)
+            self.activateItem(waitForObject(drop_down), p_port2)
 
     def connectOnCloset(self, devObj0, devObj1, p_connection, p_port1, p_port2):
         self.componentBox.clickButton(DeviceGroup.CONNECTIONS)
