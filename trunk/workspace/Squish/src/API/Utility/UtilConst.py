@@ -167,6 +167,7 @@ ScaN_TEST = "ScaN"
 CN_TEST = "CN"
 CCNAS_TEST = "CCNAS"
 BRIDGING_TEST = "Bridging"
+IOT_TEST = "IoT"
 
 #Workspaces
 WORKSPACE = ":CAppWindowBase.centralwidget.m_pWorkSpaceWnd.CViewArea_Window1.QStackedWidget1.CWorkspace1.CLogicalWorkspace1"
