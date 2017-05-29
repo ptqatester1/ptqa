@@ -35,7 +35,7 @@ class CreateProject(SquishObjectName):
 		self.squishName = p_squishName
 	
 	def setScriptName(self, p_name):
-		webview = findObject(self.squishName + IoeBaseConst.programming.PROGRAMMING_WEBVIEW[:-1])
+		webview = findObject(self.objName(IoeBaseConst.programming.PROGRAMMING_WEBVIEW[:-1]))
 		webview.evaluateJavaScript('newName.value = "' + p_name + '"')
 		None
 	
@@ -45,8 +45,8 @@ class CreateProject(SquishObjectName):
 			typeSelection = webview + '.' + 'newProjectType'
 			typeSelectionObject = findObject(typeSelection)
 			options = object.children(typeSelectionObject)
-			typeSelectionObject.click()
-			snooze(2)
+			#typeSelectionObject.click()
+			#snooze(2)
 			for i, item in enumerate(options):
 				try:
 					if p_type in item.text:
@@ -90,7 +90,7 @@ class Programming(SquishObjectName):
 		self.createProject.updateName(self.squishName)
 	
 	def new(self):
-		self.util.click(IoeBaseConst.programming.ADD_BUTTON)
+		self.util.click(self.objName(IoeBaseConst.programming.ADD_BUTTON))
 		
 	def newScript(self, p_scriptName, p_type = None, p_createCancel = 'Create'):
 		self.new()
