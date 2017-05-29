@@ -129,6 +129,12 @@ class IoeBase(DeviceBase):
         self.util.mousePressAltButton(workspace, self.x, self.y)
         snooze(p_holdTime)
         self.util.mouseReleaseAltButton(workspace, self.x, self.y)
+    
+    def deviceDragInteraction(self, xoffset1, yoffset1, xoffset2, yoffset2, p_hold_time = 0.2):
+        workspace = self.util.currentWorkspace
+        x1, y1 = self.x + xoffset1, self.y + yoffset1
+        x2, y2 = self.x + xoffset2, self.y + yoffset2
+        self.util.mouseDragAltButton(workspace, x1, y1, x2, y2, p_hold_time)
 
     def clickTab(self, *args):        
         if object.exists(self.squishName + IoeBaseConst.ADVANCED_BUTTON):
