@@ -7,21 +7,11 @@ from API.Device.EndDevice.PC.PC import PC
 from API.Device.EndDevice.Server.Server import Server
 from API.Device.Switch.Switch import Switch
 from API.Device.Router.Router import Router
+from API.Device.Cluster.Cluster import Cluster
 
 from API.ComponentBox import ComponentBoxConst
 
 util = Util()
-
-class Cluster:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-    
-    def enter(self):
-        Util().clickOnWorkspace(self.x, self.y)
-    
-    def exit(self):
-        GoldenLogicalToolbar().backButton()
 
 # Clusters
 warehouse = Cluster(100, 100)
