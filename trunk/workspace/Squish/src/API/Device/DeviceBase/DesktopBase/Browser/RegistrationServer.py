@@ -203,7 +203,7 @@ class ConditionsPage:
         
     def editRule(self, p_name, p_disable, p_ifName, p_ifState, p_ifValue, p_thenName, p_thenState, p_thenValue):
         self.setText(WebBrowser.RegistrationServer.ConditionsPage.EditRule.NAME, p_name)
-        if (p_disable != ""):
+        if p_disable:
             self.click(WebBrowser.RegistrationServer.ConditionsPage.EditRule.ENABLED_CHECKBOX)
         self.selectOption(WebBrowser.RegistrationServer.ConditionsPage.EditRule.IF_NAME_DROPDOWN, p_ifName)
         snooze(1)
