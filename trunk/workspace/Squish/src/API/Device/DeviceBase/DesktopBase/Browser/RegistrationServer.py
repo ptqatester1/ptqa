@@ -1,4 +1,3 @@
-from API.Device_Old.DeviceBase import DeviceBase
 from API.Utility.Util import Util
 from API.SquishSyntax import SquishSyntax
 from API.Device.DeviceBase.DesktopBase.DesktopBaseConst import WebBrowser
@@ -7,14 +6,14 @@ from squish import *
 import object
 import test
 
-deviceBase = DeviceBase('')
+util = Util()
 squishname = ''
 
 def customInteractions(func):
     def waitForPage(*args, **kwargs):
         for i in range(20):
             if waitForObject(squishname + WebBrowser.RegistrationServer.MAIN_WEB_VIEW).evalJS("document.readyState") == "complete":
-                deviceBase.clearCache(squishname + WebBrowser.RegistrationServer.MAIN_WEB_VIEW)
+                util.clearCache(squishname + WebBrowser.RegistrationServer.MAIN_WEB_VIEW)
                 return func(*args, **kwargs)
             snooze(1)
             
@@ -23,11 +22,11 @@ def customInteractions(func):
 class RegistrationServer:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickButton = customInteractions(deviceBase.clickButton)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.selectOption = customInteractions(deviceBase.selectOption)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickButton = customInteractions(util.clickButton)
+        self.clickLink = customInteractions(util.clickLink)
+        self.selectOption = customInteractions(util.selectOption)
         self.loginPage = LoginPage(p_squishName)
         self.signUpPage = SignUpPage(p_squishName)
         self.homePage = HomePage(p_squishName)       
@@ -48,7 +47,7 @@ class RegistrationServer:
         self.addRule.updateName(p_squishName)        
 #        self.configurePage.updateName(p_squishName)
 #        self.configureActionPage.updateName(p_squishName)
-        deviceBase.updateName(p_squishName)
+        util.updateName(p_squishName)
         global squishname
         squishname = self.squishName
         #test.log(self.squishName + ' from update function')
@@ -57,7 +56,7 @@ class RegistrationServer:
         #test.log(self.homePage.squishName + ' home')
         #test.log(self.configureActionPage.squishName + ' configureaction')
         #test.log(self.configurePage.squishName + ' configure')
-        #test.log(deviceBase.squishName + ' deviceBase')
+        #test.log(util.squishName + ' util')
         
     def textCheckPoint(self, p_searchText, p_occurrenceNum = -1):
         self.util.textCheckPoint(self.squishName + WebBrowser.RegistrationServer.MAIN_HTML_BODY, p_searchText, p_occurrenceNum)
@@ -65,9 +64,9 @@ class RegistrationServer:
 class LoginPage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
@@ -95,9 +94,9 @@ class SignUpPage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
         login = LoginPage(p_squishName)
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
         self.signUp = login.signIn
         self.editUsername = login.editUsername
         self.editPassword = login.editPasswrod
@@ -109,11 +108,11 @@ class SignUpPage:
 class HomePage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.click = customInteractions(deviceBase.click)
-        self.clickButton = customInteractions(deviceBase.clickButton)
-        self.textCheckPoint = customInteractions(deviceBase.textCheckPoint)
+        self.setText = customInteractions(util.setText)
+        self.clickLink = customInteractions(util.clickLink)
+        self.click = customInteractions(util.click)
+        self.clickButton = customInteractions(util.clickButton)
+        self.textCheckPoint = customInteractions(util.textCheckPoint)
         self.util = Util()
 
     def updateName(self, p_squishName):
@@ -176,11 +175,11 @@ class HomePage:
 class ConditionsPage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.textCheckPoint = customInteractions(deviceBase.textCheckPoint)
-        self.selectOption = customInteractions(deviceBase.selectOption)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
+        self.textCheckPoint = customInteractions(util.textCheckPoint)
+        self.selectOption = customInteractions(util.selectOption)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
@@ -260,10 +259,10 @@ class ConditionsPage:
 class EditorPage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.textCheckPoint = customInteractions(deviceBase.textCheckPoint)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
+        self.textCheckPoint = customInteractions(util.textCheckPoint)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
@@ -281,10 +280,10 @@ class EditorPage:
 class AddRule:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.textCheckPoint = customInteractions(deviceBase.textCheckPoint)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
+        self.textCheckPoint = customInteractions(util.textCheckPoint)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
@@ -419,10 +418,10 @@ class AddRule:
 class ConfigurePage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
-        self.textCheckPoint = customInteractions(deviceBase.textCheckPoint)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
+        self.textCheckPoint = customInteractions(util.textCheckPoint)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
@@ -489,9 +488,9 @@ class ConfigurePage:
 class ConfigureActionPage:
     def __init__(self, p_squishName):
         self.squishName = p_squishName
-        self.setText = customInteractions(deviceBase.setText)
-        self.click = customInteractions(deviceBase.click)
-        self.clickLink = customInteractions(deviceBase.clickLink)
+        self.setText = customInteractions(util.setText)
+        self.click = customInteractions(util.click)
+        self.clickLink = customInteractions(util.clickLink)
         
     def updateName(self, p_squishName):
         self.squishName = p_squishName
