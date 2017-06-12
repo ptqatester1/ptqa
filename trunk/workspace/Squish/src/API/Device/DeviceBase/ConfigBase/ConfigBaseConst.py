@@ -82,7 +82,16 @@ class CellularInterface:
 class PCWirelessInterface:
 	None
 
+class Bluetooth:
+	TABLE = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_btWidgets.m_btDevicesGroupBox.m_btDevicesTable'
+	DISCOVER_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_btWidgets.m_btDevicesGroupBox.m_btDiscoverBtn'
+	PAIR_BUTTON = '.c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_btWidgets.m_btDevicesGroupBox.m_btPairBtn'
+	BLUETOOTH_PAIRING_POPUP_DIALOG = ':CAppWindowBase.Bluetooth Pairing'
+	BLUETOOTH_PAIRING_POPUP_DIALOG_YES = ':CAppWindowBase.Bluetooth Pairing.qt_msgbox_buttonbox.Yes'
+	BLUETOOTH_PAIRING_POPUP_DIALOG_NO = ':CAppWindowBase.Bluetooth Pairing.qt_msgbox_buttonbox.No'
+
 class Interface:
+	bluetooth = Bluetooth
 	SCROLL_AREA = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2"
 	TITLE = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_title"
 	PORT_STATUS_CHECKBOX = ".c_physicalTab.qt_tabwidget_stackedwidget.m_menuCfgTab.BaseIntCfgUniversal.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.m_portStatusCheckBox"

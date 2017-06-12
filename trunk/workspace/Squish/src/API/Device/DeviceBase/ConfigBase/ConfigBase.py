@@ -193,10 +193,11 @@ class Interface:
 		self.wired = WiredInterface(self)
 		self.wireless = WirelessInterface(self)
 		self.cellular = CellularInterface(self)
+		self.bluetooth = BluetoothInterface(self)
 		
 	def updateName(self, squishName):
 		self.squishName = squishName
-		for interface in [self.wired, self.wireless, self.cellular]:
+		for interface in [self.wired, self.wireless, self.cellular, self.bluetooth]:
 			interface.updateName(self.squishName)
 
 class ConfigPopupWarnings(SquishObjectName):

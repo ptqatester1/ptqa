@@ -452,6 +452,47 @@ class CellularInterface(UpdateName, SquishObjectName):
 	def dhcpv6Refresh(self):
 		Util().clickButton(self.objName(ConfigConst.interface.DHCPv6_REFRESH))
 	
+class BluetoothInterface(UpdateName, SquishObjectName):
+	def __init__(self, parent):
+		super(BluetoothInterface, self).__init__(parent)
+	
+	def discoverButton(self):
+		Util().clickButton(self.objName(ConfigConst.interface.bluetooth.DISCOVER_BUTTON))
+	
+	@property
+	def bluetoothTableName(self):
+		return self.objName(ConfigConst.interface.bluetooth.TABLE)
+
+	@property
+	def bluetoothTable(self):
+		return findObject(self.bluetoothTableName)
+	
+	def pairButton(self):
+		Util().clickButton(self.objName(ConfigConst.interface.bluetooth.PAIR_BUTTON))
+	
+	def selectDeviceInTable(self, device_name):
+		for i in range(self.bluetoothTable.rowCount):
+			name_cell = findObject('%s.item_%s/0' % (self.bluetoothTableName, i))
+			name = name_cell.text
+			if name == device_name:
+				Util().click(name_cell)
+				return
+		raise ValueError('Unable to find device with name %s' % (device_name))
+	
+	def pair(self, device_name, select_popup_yes = True):
+		self.selectDeviceInTable(device_name)
+		self.pairButton()
+		for i in range(10): # There is a short delay between clicking pair and the popup 
+			snooze(0.1)
+			if object.exists(ConfigConst.interface.bluetooth.BLUETOOTH_PAIRING_POPUP_DIALOG):
+				if select_popup_yes:
+					Util().clickButton(ConfigConst.interface.bluetooth.BLUETOOTH_PAIRING_POPUP_DIALOG_YES)
+					return
+				else:
+					Util().clickButton(ConfigConst.interface.bluetooth.BLUETOOTH_PAIRING_POPUP_DIALOG_NO)
+					return
+			
+		
 class WiredInterfaceCheck(PortStatusCheck, BandwidthCheck, DuplexCheck, MacAddressCheck, IpConfigurationCheck, Ipv6ConfigurationCheck):
 	None
 	

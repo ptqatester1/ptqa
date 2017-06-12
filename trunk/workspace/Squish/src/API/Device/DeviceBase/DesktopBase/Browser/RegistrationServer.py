@@ -47,7 +47,6 @@ class RegistrationServer:
         self.addRule.updateName(p_squishName)        
 #        self.configurePage.updateName(p_squishName)
 #        self.configureActionPage.updateName(p_squishName)
-        util.updateName(p_squishName)
         global squishname
         squishname = self.squishName
         #test.log(self.squishName + ' from update function')
