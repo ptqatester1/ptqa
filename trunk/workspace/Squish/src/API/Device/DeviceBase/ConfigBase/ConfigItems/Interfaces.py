@@ -452,7 +452,7 @@ class CellularInterface(UpdateName, SquishObjectName):
 	def dhcpv6Refresh(self):
 		Util().clickButton(self.objName(ConfigConst.interface.DHCPv6_REFRESH))
 	
-class BluetoothInterface(UpdateName, SquishObjectName):
+class BluetoothInterface(PortStatus, UpdateName, SquishObjectName):
 	def __init__(self, parent):
 		super(BluetoothInterface, self).__init__(parent)
 	

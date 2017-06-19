@@ -73,6 +73,13 @@ class Tftp(SquishObjectName):
 					Util().click(child)
 					return child
 		raise ValueError('Unable to find file with the name ' + filename)
+
+	def has_file(self, filename):
+		for child in object.children(self.fileList):
+			if 'text' in object.properties(child):
+				if str(child.text) == filename:
+					return True
+		return false
 	
 	def remove(self, filename):
 		self.selectFile(filename)

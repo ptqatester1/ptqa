@@ -1028,6 +1028,12 @@ class IoeMonitor:
 class IoeIde:
 	None
 
+class MQTTBroker:
+	None
+
+class MQTTClient:
+	None
+
 #Server only
 class AaaAccounting:
 	TABBAR = ":CBaseDeviceWidgetClass.aaaviewer.m_tabWidget"
@@ -1084,6 +1090,8 @@ class Applications:
 	TFTP_SERVICE = ".c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.m_desktopFrame.TftpBtn"
 	IOE_MONITOR = '.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.m_desktopFrame.IoE Monitor_btn'
 	IOE_IDE = '.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.m_desktopFrame.IoE IDE_btn'
+	MQTT_BROKER = '.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.m_desktopFrame.MQTT Broker_btn'
+	MQTT_CLIENT = '.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.m_desktopFrame.MQTT Client_btn'
 
 class DesktopConst:
 	applications = Applications

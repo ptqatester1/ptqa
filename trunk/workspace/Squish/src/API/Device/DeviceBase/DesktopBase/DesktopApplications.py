@@ -326,3 +326,14 @@ class Applications(SquishObjectName):
 		self._closeWindows()
 		Util().clickButton(self.objName(DesktopConst.applications.IOE_IDE))
 		Util().snooze(.5)
+	
+	def mqttBroker(self):
+		self._closeWindows()
+		Util().clickButton(self.objName(DesktopConst.applications.MQTT_BROKER))
+		Util().snooze(0.5)
+	
+	def mqttClient(self):
+		self._closeWindows()
+		Util().clickButton(self.objName(DesktopConst.applications.MQTT_CLIENT))
+		Util().snooze(0.5)
+	

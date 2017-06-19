@@ -24,6 +24,8 @@ from API.Device.DeviceBase.DesktopBase.TftpService import TftpService
 from API.Device.DeviceBase.DesktopBase.IoeMonitor import IoeMonitor
 from API.Device.DeviceBase.DesktopBase.IoeIde import IoeIde
 from API.Device.DeviceBase.DesktopBase.AaaAccounting import AaaAccounting
+from API.Device.DeviceBase.DesktopBase.MQTT import Broker as MQTTBroker
+from API.Device.DeviceBase.DesktopBase.MQTT import Client as MQTTClient
 
 class Desktop:
 	def __init__(self, parent):
@@ -50,6 +52,8 @@ class Desktop:
 		self.ioeMonitor = IoeMonitor(self)
 		self.ioeIde = IoeIde(self)
 		self.aaaAccounting = AaaAccounting(self)
+		self.mqttBroker = MQTTBroker(self)
+		self.mqttClient = MQTTClient(self)
 		
 	def updateName(self, squishName):
 		self.squishName = squishName
@@ -75,3 +79,5 @@ class Desktop:
 		self.ioeMonitor.updateName(self.squishName)
 		self.ioeIde.updateName(self.squishName)
 		self.aaaAccounting.updateName(self.squishName)
+		self.mqttBroker.updateName(self.squishName)
+		self.mqttClient.updateName(self.squishName)
